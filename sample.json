@@ -1,0 +1,193 @@
+{
+    "id": 1,
+    "name": "Kitchen J & S",
+    "address": "Delhi 110088",
+    "logo": "https://i.imgur.com/RPHIXvr.jpg",
+    "currency": "INR",
+    "menu": [
+        {
+            "id": 1,
+            "name": "Breakfast",
+            "meta": ""
+        },
+        {
+            "id": 2,
+            "name": "Lunch",
+            "meta": ""
+        },
+        {
+            "id": 3,
+            "name": "Dessert",
+            "meta": ""
+        },
+        {
+            "id": 4,
+            "name": "Snacks",
+            "meta": ""
+        },
+        {
+            "id": 5,
+            "name": "Drinks",
+            "meta": ""
+        },
+        {
+            "id": 6,
+            "name": "Beverages",
+            "meta": ""
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "size": "50gms",
+            "options": [
+                {
+                    "name": "Select Flavour",
+                    "type": "radio",
+                    "list": [
+                        {
+                            "name": "Sweet",
+                            "price": 0
+                        },
+                        {
+                            "name": "Salty",
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Make More Tangy",
+                    "max": 2,
+                    "type": "checkbox",
+                    "list": [
+                        {
+                            "name": "Extra mint",
+                            "price": 2
+                        },
+                        {
+                            "name": "Extra ginger",
+                            "price": 10
+                        },
+                        {
+                            "name": "Extra soda",
+                            "price": 15
+                        }
+                    ]
+                }
+            ],
+            "name": "Poha",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 1,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 2,
+            "size": "50gms",
+            "name": "Veda",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 4,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 3,
+            "size": "50gms",
+            "name": "Sada dosa",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 1,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 4,
+            "size": "50gms",
+            "name": "Masala dosa",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 5,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 5,
+            "size": "50gms",
+            "name": "Mysore sada dosa",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 4,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 6,
+            "size": "350gms",
+            "name": "Thali",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 3,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 8,
+            "size": "50gms",
+            "name": "Kulfi",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 3,
+            "price": 20,
+            "meta": ""
+        },
+        {
+            "id": 10,
+            "size": "50gms",
+            "options": [
+                {
+                    "name": "Select Flavour",
+                    "type": "radio",
+                    "list": [
+                        {
+                            "name": "Sweet",
+                            "price": 0
+                        },
+                        {
+                            "name": "Salty",
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Make More Tangy",
+                    "max": 2,
+                    "type": "checkbox",
+                    "list": [
+                        {
+                            "name": "Extra mint",
+                            "price": 2
+                        },
+                        {
+                            "name": "Extra ginger",
+                            "price": 10
+                        },
+                        {
+                            "name": "Extra soda",
+                            "price": 15
+                        }
+                    ]
+                }
+            ],
+            "name": "Spicy chicken",
+            "available": true,
+            "imageURL": "Https://i.ndtvimg.com/i/2017-08/bread-poha_240x180_81503556243.jpg",
+            "categoryId": 6,
+            "price": 20,
+            "meta": ""
+        }
+    ],
+    "tax": 15,
+    "deliveryCharge": 30
+}
